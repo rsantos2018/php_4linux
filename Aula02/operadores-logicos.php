@@ -17,7 +17,7 @@ echo "<hr>";
 
 var_dump(true xor true); //false
 var_dump(true xor false); //true
-var_dump(false xor false); //true
+var_dump(false xor false); //false
 echo "<hr>";
 
 var_dump(!true); //false
