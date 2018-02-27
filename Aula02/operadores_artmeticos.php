@@ -12,3 +12,4 @@ $multiplicacao = $a * $b;
 var_dump($multiplicacao);
 $divisao = $a / $b;
 var_dump ($divisao);
+ 
