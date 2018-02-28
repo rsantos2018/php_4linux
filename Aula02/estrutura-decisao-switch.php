@@ -3,18 +3,17 @@
 $nome = readline("Digite seu nome: ");
 
 
-switch (variable) {
-	case 'value':
-		# code...
+switch ($nome) {
+	case 'Reginaldo':
 		break;case 'Reginaldo':
-		echo "Boa noite, Reginaldo"
+		echo "Boa noite, Reginaldo";
 		break;
 
 	case 'Lucas':
-		echo "Boa noite, Lucas"
+		echo "Boa noite, Lucas";
 		break;
 
 	default:
-		echo "Boa noite, Estranho!!!"
+		echo "Boa noite, Estranho!!!";
 		break;
 }
