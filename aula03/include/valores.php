@@ -10,4 +10,4 @@ var_dump($a);
 var_dump($b);
 var_dump($c);
 
-//include_once = inclui o arquivo somente uma vez.
+//include_once = inclui o arquivo somente
