@@ -5,7 +5,6 @@ $nome = readline("Digite seu nome: ");
 
 switch ($nome) {
 	case 'Reginaldo':
-		break;case 'Reginaldo':
 		echo "Boa noite, Reginaldo";
 		break;
 
