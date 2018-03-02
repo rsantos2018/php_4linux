@@ -9,4 +9,5 @@ var_dump($b);
 var_dump($c);
 
 
-//require_once = inclui o arquivo somente uma vez.
+//require_once = inclui o arquivo
+ somente uma vez.
