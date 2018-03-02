@@ -2,13 +2,12 @@
 
 echo "<pre>";
 
-$cont = 11;
+$cont = 0;
 
 do{
 	echo $cont ;
 	echo "<br>";
 	$cont++;
-} while ( $cont<= 2);
-	echo $cont;
-	echo "<br>";
+} while ( $cont<= 10);
+	
  	echo "Acabou!";

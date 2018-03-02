@@ -13,4 +13,4 @@ comandos_git.php
 //git config --global user.name "Reginaldo dos Santos"
 
 
-developer@developer:/var/www/html/500$
+developer@developer:/var/www/html/500$h

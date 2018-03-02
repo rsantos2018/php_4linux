@@ -5,11 +5,11 @@ echo "<pre>";
 $idade = 20;
 $carterinha = false;
 
-if (($idade >= 18) && $carterinha){
+if ($idade >= 18 && $carterinha){
 
 	echo "Maior idade com carterinha";
 }
-else if (($idade >=18) && $carterinha == false){
+else if ($idade >=18 && $carterinha == false){
 	echo "Maior idade, faça carterinha";
 }else {
 	echo "Menor idade, carterinha não permitida";

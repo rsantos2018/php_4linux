@@ -52,3 +52,6 @@ echo "<hr>";
 $cliente = ["Frederico dos Santos",27, 1.70, "frederico@gmail.com"];
 echo $cliente [0] . " - Programador";
 echo "<hr>";
+
+
+
