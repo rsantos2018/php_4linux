@@ -66,6 +66,25 @@ echo ucwords($var);
 
 echo "<hr>"
 
+//Converte para maiusculo
+$var = "ola mundo";
+echo strtoupper($var);
+
+echo "<hr>"
+
+//Ordena array e mantem a chave
+$array = ['a', 'c', 'b', 'f','e'];
+asort($array);
+print_r($array);
+
+echo "<hr>"
+
+//Ordena array e por valores
+$array = ['a' => '0', 'c' =>'1', 'b' => '2', 'f' => '3','e' => '4'];
+ksort($array);
+print_r($array);
+
+echo "<hr>"
 
 
 
