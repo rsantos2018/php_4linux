@@ -29,12 +29,8 @@ foreach ($pessoa as $chave => $valor) {
 echo "<hr>";
 
 foreach ($pessoa as $chave => $valor) {
-	if ($chave == 'nome'){
+	if ($chave == 'nome')
 		echo $valor;
 
 	}
-echo "<hr>";
-
-
-
 echo "<hr>";
