@@ -14,3 +14,5 @@ comandos_git.php
 
 
 developer@developer:/var/www/html/500$h
+
+--apache version

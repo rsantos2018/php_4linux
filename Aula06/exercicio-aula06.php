@@ -8,10 +8,10 @@
 <form action="" method="POST">
 	
 	<label for="N1">Digite o primeiro número: </label>
-	<input type="number" name="N1" value=""><br><br><br>
+	<input type="number" name="N1"><br><br><br>
 
 	<label for="N2">Digite o segundo número: </label>
-	<input type="number" name="N2" value=""><br>
+	<input type="number" name="N2"><br>
 
 	<input type="submit" value="Enviar"><br>
 
@@ -21,10 +21,15 @@
 
 		if(!empty($_POST)){
 
-			$N1 = $_POST ['N1'];
-			$N2 = $_POST ['N2'];
-			
-			echo $_POST['$N1'] + $_POST['$N2'];
+			$soma = $_POST['N1'] + $_POST['N2'];
+			echo "A soma dos números são: " . $soma;
+			echo "<br>";
+			$sub = $_POST['N1'] - $_POST['N2'];
+			echo "A subtração dos números são:" . $sub;
+			$sub = $_POST['N1'] * $_POST['N2'];
+			echo "A multiplicação dos números são:" . $sub;
+			$sub = $_POST['N1'] / $_POST['N2'];
+			echo "A divisão dos números são:" . $sub;
 
 		}
 
