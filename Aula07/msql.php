@@ -1,5 +1,10 @@
 <?php
 
-$conexao = mysqli_connect("localhost", "reginaldo", "@da6linux", "aula07");
+$host = "localhost";
+$user = "reginaldo";
+$pass = "@da6linux";
+$db = "aula07";
+
+$conexao = mysqli_connect($host, $user, $pass, $db);
 
 var_dump($conexao);
