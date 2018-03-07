@@ -24,7 +24,7 @@ SELECT * FROM posts INNER JOIN usuarios ON posts.usuario_id = usuarios.usuario_i
 
 SELECT * FROM posts LEFT JOIN usuarios ON posts.usuario_id = usuarios.usuarios_id;
 
-no terminal ctrl+shift+
+no terminal ctrl+shift+t
 
 sudo apt update;
 
