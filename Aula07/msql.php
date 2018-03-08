@@ -7,4 +7,14 @@ $db = "aula07";
 
 $conexao = mysqli_connect($host, $user, $pass, $db);
 
-var_dump($conexao);
+//var_dump($conexao);
+
+//mysqli_query($conexao, "INSERT INTO posts (usuario_id, post) VALUES (7,'Meu sétimo post');");
+
+$query = "SELECT * FROM posts";
+$result = mysqli_query($conexao,$query);
+
+echo "<pre>";
+while ($row = mysqli_fetch_assoc($result)){
+		print_r($row);
+}

@@ -1,3 +1,4 @@
+sudo mysql - acessa banco de dados mysql
 CREATE DATABASE aula07;
 USE aula07;
 CREATE TABLE posts(id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, usuario_id INT NOT NULL, 
@@ -31,6 +32,8 @@ sudo apt update;
 sudo apt install
 
 sudo apt install php7.0-mysql
+
+sudo apt install postgresql
 
 sudo service apache2 restart
 
