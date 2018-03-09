@@ -32,7 +32,11 @@ aula08(> senha VARCHAR(40) NOT NULL);
 aula08=> \d usuarios - mostra estrutura da tabela
 ======================================================
 ALTER TABLE posts ALTER COLUMN usuario_id SET NOT NULL; - alterando coluna
+ALTER TABLE tb_alunos ADD PRIMARY KEY (id); - adiciona 
+
 ======================================================
 sudo apt update
 sudo apt install php7.0-pgsql
 sudo service apache2 restart
+=====================================================
+\d (nome da tabela) - mostra as colunas da tabela
