@@ -28,6 +28,7 @@ aula08=> CREATE TABLE usuarios(
 aula08(> id SERIAL PRIMARY KEY,
 aula08(> usuario VARCHAR(255) NOT NULL,
 aula08(> senha VARCHAR(40) NOT NULL);
+
 ======================================================
 aula08=> \d usuarios - mostra estrutura da tabela
 ======================================================
@@ -39,4 +40,6 @@ sudo apt update
 sudo apt install php7.0-pgsql
 sudo service apache2 restart
 =====================================================
-\d (nome da tabela) - mostra as colunas da tabela
+\d (nome da tabela) - mostra as colunas da 
+\c cursos  - conecta do banco
+alter table tb_cursos owner to reginaldo - troca dono da tabela

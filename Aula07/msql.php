@@ -16,5 +16,11 @@ $result = mysqli_query($conexao,$query);
 
 echo "<pre>";
 while ($row = mysqli_fetch_assoc($result)){
-		print_r($row);
+		echo "Post: {$row['id]} <br>";
+		echo $row['post'];
+		echo "<hr>";
+
 }
+
+$found = mysqli_fetch_array($result);
+print_r($found);
